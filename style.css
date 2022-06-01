@@ -1,0 +1,90 @@
+.box1{
+background-color: red;
+height: 200px;
+width: 200px;
+margin: 0.1px;
+display: inline-block;
+}
+.box2{
+    background-color:green;
+    height: 200px;
+    width: 200px;
+   margin: 1px;
+   display: inline-block;
+}
+.box3{
+    background-color:red;
+    height: 80px;
+    width: 700px;
+    top: 0px;
+    left:10px;
+    position:fixed;
+}
+.box4{
+    background-color:brown;
+    height: 200px;
+    width: 200px;
+   margin: 1px;
+   position: relative;
+   top:10px;
+   right: 100px;
+   display: inline-block;
+}
+.box6{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.box7{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.box8{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+}
+.box5{
+  height:100px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+.box10{
+  height: 100px;
+  width: 500px;
+  background: #000;
+  position: sticky;
+  top: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .box1 {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .box1 {background: red;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .box1 {background: orange;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .box1 {background: green;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up)
+  @media only screen and (min-width: 1200px) {
+    .box3 {background:green}
+  } */
